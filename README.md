@@ -44,9 +44,9 @@ pip install -r requirements.txt
 - The script automatically handles OAuth flow and saves a token.json so you won’t need to re-authorize every time.
 
 ## Customization
-## Regex Patterns 
+### Regex Patterns 
 - In findDates.py, the date_pattern and time_pattern can be modified if your syllabus date/time formats differ.
-## Events and Reminders
+### Events and Reminders
 - The appendShort function in findDates.py defines how events are created and which reminders to set (e.g. 1-day and 2-day notifications).
 
 ## Limitations
