@@ -50,9 +50,9 @@ pip install -r requirements.txt
 - The appendShort function in findDates.py defines how events are created and which reminders to set (e.g. 1-day and 2-day notifications).
 
 ## Limitations
-Syllabus Format Variations:
+### Syllabus Format Variations:
 This script relies on specific date/time patterns to match. If a syllabus uses highly unusual date formatting or is a scanned PDF containing images rather than text, the parsing may fail or produce incorrect results. You may need to adjust the regex patterns or use different OCR tools for image-based PDFs.
-Date Range Assumptions:
+### Date Range Assumptions:
 The convertDate function assumes that dates from January to April belong to the next calendar year. This may not hold for all academic calendars.
 
 ## Troubleshooting
